@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> </head>
-<body style="background-color: black;">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: black; /* Définit le fond en noir */
+            color: white; /* Optionnel : Change le texte en blanc */
+        }
+    </style>
+</head>
+<body 
     <h2>Match</h2>
     <ul>
         <li><a href="J1CF63.html">Clermont Foot 63</a></li>

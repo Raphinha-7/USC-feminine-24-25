@@ -9,7 +9,7 @@
     <h2>Navigation</h2>
     <ul>
         <li><a href="Saison2425.md">Saison 24/25</a></li>
-        <li><a href="Match.md">Match</a></li>
+        <li><a href="Match.html">Match</a></li>
         <li><a href="RPE.md">RPE</a></li>
         <li><a href="Doucmentdivers.md">Document Divers</a></li>
     </ul>

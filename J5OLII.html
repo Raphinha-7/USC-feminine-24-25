@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Basic Table Styles */
+        body {
+            font-family: Arial, sans-serif; /* Choix de police */
+            background-color: black; /* Fond noir */
+            color: white; /* Couleur du texte blanc */
+            margin: 0; /* Enlève les marges par défaut du body */
+            padding: 20px; /* Ajoute un peu de remplissage autour du contenu */
+        }
+        h1 {
+            text-align: center; /* Centre le titre */
+        }
         table {
-            width: 80%; /* Make table take up 80% of the screen width */
-            margin: 20px auto; /* Center the table horizontally */
-            border-collapse: collapse; /* Remove spacing between table cells */
-            font-family: sans-serif; /* Choose a font you like */
+            width: 100%; /* Prend toute la largeur de son conteneur */
+            border-collapse: collapse; /* Supprime l'espace entre les cellules */
+            margin-top: 20px; /* Ajoute un espace au-dessus du tableau */
         }
-
         th, td {
-            padding: 10px; /* Add padding to cells for better readability */
-            text-align: left; /* Align text to the left */
-            border: 1px solid #ddd; /* Add a border around cells */
+            border: 1px solid white; /* Bordure blanche autour des cellules */
+            padding: 10px; /* Ajoute du remplissage à l'intérieur des cellules */
+            text-align: left; /* Aligne le texte à gauche */
         }
-
         th {
-            background-color: #f2f2f2; /* Light gray background for header row */
-            font-weight: bold; /* Make header text bold */
+            background-color: gray; /* Arrière-plan gris pour les en-têtes */
         }
-
-        /* Optional: Alternate row colors */
-        tbody tr:nth-child(even) {
-            background-color: #f9f9f9; /* Light gray background for even rows */
+        tr:nth-child(even) {
+            background-color: #333; /* Arrière-plan sombre pour les lignes paires */
+        }
+        tr:hover {
+            background-color: darkgray; /* Change la couleur de fond lors du survol */
+        }
+        nav {
+            margin-top: 20px; /* Ajoute un espace au-dessus de la navigation */
+            text-align: center; /* Centre le lien de navigation */
+        }
+        a {
+            color: white; /* Couleur du lien blanc */
+            text-decoration: none; /* Supprime le soulignement des liens */
+        }
+        a:hover {
+            text-decoration: underline; /* Soulignement lors du survol */
         }
     </style>
 </head>
@@ -63,10 +80,24 @@
                 <td>5</td>
             </tr>
         </tbody>
+        <tbody>
+            <tr>
+                <td>Robin</td>
+                <td>Parra</td>
+                <td>35</td>
+                <td>37</td>
+                <td>5</td>
+                <td>4</td>
+                <td>6</td>
+                <td>13</td>
+                <td>12</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+        </tbody>
     </table>
     <nav>
         <a href="index.html">Retour à l'accueil</a>
     </nav>
-
 </body>
 </html>

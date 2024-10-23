@@ -16,7 +16,7 @@
     </ul>
     <h2>USC</h2>
     <ul>
-        <li><a href="Saison2425.html">Saison 24/25</a></li>
+        <li><a href="S2425.html">Saison 24/25</a></li>
         <li><a href="RPE.html">RPE</a></li>
         <li><a href="Documentdivers.html">Document divers</a></li>
     </ul>

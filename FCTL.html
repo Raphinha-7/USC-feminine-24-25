@@ -5,128 +5,231 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-            margin: 0;
-            padding: 20px;
+            font-family: Arial, sans-serif; /* Choix de police */
+            background-color: black; /* Fond noir */
+            color: white; /* Couleur du texte blanc */
+            margin: 0; /* Enlève les marges par défaut */
+            padding: 20px; /* Ajoute du remplissage autour du contenu */
         }
-
-        /* Styles pour les titres */
         h1, h2, h3, h4 {
-            text-align: center; /* Centre le titre */
-            margin-bottom: 10px; /* Ajoute un espace entre les titres */
+            margin: 10px 0; /* Ajoute une marge entre les titres */
         }
-
-        /* Styles pour les tables */
-        .stat-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+        h1, h4 { text-align: left; }
+        h2 { text-align: center; }
+        h3 { text-align: right; }
+        table {
+            width: 100%; /* Prend toute la largeur de son conteneur */
+            border-collapse: collapse; /* Suppression de l'espace entre les cellules */
+            margin-top: 20px; /* Espace au-dessus des tables */
         }
-
-        .stat-table th, 
-        .stat-table td {
-            border: 1px solid white;
-            padding: 10px;
-            text-align: left;
+        th, td {
+            border: 1px solid white; /* Bordure blanche autour des cellules */
+            padding: 10px; /* Remplissage à l'intérieur des cellules */
+            text-align: left; /* Alignement à gauche */
         }
-
-        .stat-table th {
-            background-color: gray;
+        th {
+            background-color: gray; /* Arrière-plan gris pour les en-têtes */
         }
-
-        .stat-table tr:nth-child(even) {
-            background-color: #333;
+        tr:nth-child(even) {
+            background-color: #333; /* Arrière-plan sombre pour les lignes paires */
         }
-
-        .stat-table tr:hover {
-            background-color: darkgray;
+        tr:hover {
+            background-color: darkgray; /* Couleur de fond lors du survol */
         }
-
-        /* Styles pour la navigation */
         nav {
-            margin-top: 20px;
-            text-align: center;
+            margin-top: 20px; /* Espace au-dessus de la navigation */
+            text-align: center; /* Centre le lien de navigation */
         }
-
         a {
-            color: white;
-            text-decoration: none;
+            color: white; /* Couleur du lien blanc */
+            text-decoration: none; /* Supprime le soulignement des liens */
         }
-
         a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Soulignement lors du survol */
         }
     </style>
 </head>
 <body>
-    <h1>Rapport du match F.C. Thongue Libron - U.S. Colomiers 20/10/2024 </h1>
-    <h2> <img src="BC582745.jpg" alt="logo FCTL"> 1:9 <img src="logousc.jpg" alt="logo USC"> </h2>
+    <h1>Rapport du match F.C. Thongue Libron - U.S. Colomiers 20/10/2024</h1>
+    <h2><img src="BC582745.jpg" alt="logo FCTL"> 1:9 <img src="logousc.jpg" alt="logo USC"></h2>
+    <h2>Mi-Temps 1:4</h2>
+    <h2>Dimanche 20 octobre 2024 15:00</h2>
+    <h2>Troisième tour de coupe de France</h2>
+    <h2>Stade Antoin Montolin</h2>
+    <h2><img src="compousc.jpeg" alt="compo FCTL-USC"></h2>
+    <h2>Résumé du Match</h2>
+    <h2>Coup d'envoi</h2>
+    <h3>3' BUT USC Carla Benedetto</h3>
+    <h3>9' BUT USC Ikam</h3>
+    <h3>15' BUT USC Agathe Daviaud</h3>
+    <h4>3' BUT FCTL Erika Boix</h4>
 
-    <div id="match-info">
-        <h2> Mi-Temps 1:4 </h2>
-        <h2> Dimanche 20 octobre 2024 15:00 </h2>
-        <h2> Troisième tour de coupe de France </h2>
-        <h2> Stade Antoin Montolin</h2>
-        <h2> <img src="compousc.jpeg" alt="compo FCTL-USC"> </h2>
-    </div>
+    <h2>Statistiques</h2>
+    
+    <h4>Attaque</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>BUTS</th>
+                <th>Passes Décisives</th>
+                <th>Tir</th>
+                <th>Centre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Exemple de lignes de tableau, faire des entrées uniques -->
+            <tr>
+                <td>9</td>
+                <td>Daviaud</td>
+                <td>Agathe</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2/2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Daviaud</td>
+                <td>Agathe</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1/1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <h2> Résumé du Match </h2>
-    <h3> 3' BUT USC Carla Benedetto </h3>
-    <h3> 9' BUT USC Ikam </h3>
-    <h3> 15' BUT USC Agathe Daviaud </h3>
-    <h4> 3' BUT FCTL Erika Boix </h4>
+    <h4>Défense</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Duel Aérien</th>
+                <th>Interception</th>
+                <th>Ballon perdu</th>
+                <th>Ballon récupéré</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9</td>
+                <td>Daviaud</td>
+                <td>Agathe</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2/2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Daviaud</td>
+                <td>Agathe</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1/1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <h2> Statistiques </h2>
+    <h4>CPA</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Joueuses</th>
+                <th>Poste</th>
+                <th>Corners</th>
+                <th>Coup Franc</th>
+                <th>Touche</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9</td>
+                <td>Agathe Daviaud</td>
+                <td>BU</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2/2</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Agathe Daviaud</td>
+                <td>BU</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1/1</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="stat-section">
-        <h4> Attaque </h4>
-        <table id="stats-attack" class="stat-table">
+    <nav>
+        <h4>Faute</h4>
+        <table>
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Nom</th>
-                    <th>Prénom</th>
-                    <th>BUTS</th>
-                    <th>Passes Décisives</th>
-                    <th>Tir</th>
-                    <th>Centre</th>
+                    <th>Joueuses</th>
+                    <th>Poste</th>
+                    <th>Hors-jeu</th>
+                    <th>Fautes commise/subi</th>
+                    <th>Jaune/Rouge</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Remplacer par une boucle `for` -->
                 <tr>
                     <td>9</td>
-                    <td>Daviaud</td>
-                    <td>Agathe</td>
+                    <td>Agathe Daviaud</td>
+                    <td>BU</td>
                     <td>2</td>
                     <td>0</td>
                     <td>2/2</td>
-                    <td>2</td>
                 </tr>
                 <tr>
                     <td>9</td>
-                    <td>Daviaud</td>
-                    <td>Agathe</td>
+                    <td>Agathe Daviaud</td>
+                    <td>BU</td>
                     <td>2</td>
                     <td>0</td>
                     <td>1/1</td>
-                    <td>2</td>
                 </tr>
             </tbody>
         </table>
-    </div>
 
-    <!-- Répétez la structure de la section statistique pour les autres catégories -->
-
-    <nav>
+        <h4>Gardienne</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Joueuses</th>
+                    <th>Tir cadrés reçu</th>
+                    <th>But encaissés</th>
+                    <th>Nombre d'arrêt</th>
+                    <th>Dégagement</th>
+                    <th>6m</th>
+                    <th>Centre concédés/arrêtés</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ines</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>6</td>
+                    <td>2/2</td>
+                    <td>1/3</td>
+                    <td>5/2</td>
+                </tr>
+            </tbody>
+        </table>
         <a href="index.html">Retour à l'accueil</a>
     </nav>
-
-    <script>
-        // Utilisez JavaScript pour générer les tables dynamiquement
-        // ...
-    </script>
 </body>
 </html>

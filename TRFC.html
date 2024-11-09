@@ -15,7 +15,7 @@
         }
         .tab {
             padding: 10px;
-            background-color: #f2f2f2;
+            background-color: #0000FF;
             border: 1px solid #ccc;
             margin-right: 5px;
         }
@@ -39,10 +39,10 @@
 
 <div class="tabs">
     <div class="tab active" onclick="showTab(event, 'resume')">Résumé</div>
-    <div class="tab" onclick="showTab(event, 'passes')">Passes</div>
-    <div class="tab" onclick="showTab(event, 'actions')">Actions défensives</div>
-    <div class="tab" onclick="showTab(event, 'possession')">Possession</div>
-    <div class="tab" onclick="showTab(event, 'statistiques')">Statistiques diverses</div>
+    <div class="tab" onclick="showTab(event, 'Attaque')">Passes</div>
+    <div class="tab" onclick="showTab(event, 'Défense')">Actions défensives</div>
+    <div class="tab" onclick="showTab(event, 'CPA')">Possession</div>
+    <div class="tab" onclick="showTab(event, 'Fautes')">Statistiques diverses</div>
 </div>
 
 <div id="resume" class="tab-content active">
@@ -50,8 +50,7 @@
     <p>Données de résumé des joueurs...</p>
 </div>
 
-<div id="passes" class="tab-content">
-    <h2>Passes</h2>
+<div id="Attaque" class="tab-content">
     <table>
         <thead>
             <tr>
@@ -79,17 +78,17 @@
     </table>
 </div>
 
-<div id="actions" class="tab-content">
+<div id="Defense" class="tab-content">
     <h2>Actions défensives</h2>
     <p>Données sur les actions défensives des joueurs...</p>
 </div>
 
-<div id="possession" class="tab-content">
+<div id="CPA" class="tab-content">
     <h2>Possession</h2>
     <p>Données sur la possession de balle...</p>
 </div>
 
-<div id="statistiques" class="tab-content">
+<div id="Fautes" class="tab-content">
     <h2>Statistiques diverses</h2>
     <p>Diverses statistiques des joueurs...</p>
 </div>

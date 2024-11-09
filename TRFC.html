@@ -15,18 +15,21 @@
         }
         .tab {
             padding: 10px;
-            background-color: #0000FF;
+            background-color: #f2f2f2;
             border: 1px solid #ccc;
             margin-right: 5px;
+            color: darkgreen; /* Couleur de texte des onglets */
         }
         .tab.active {
-            background-color: #0000FF;
+            background-color: #ddd;
             font-weight: bold;
+            color: blue; /* Couleur de l'onglet actif */
         }
         .tab-content {
             display: none;
             border: 1px solid #ccc;
             padding: 10px;
+            color: black; /* Couleur de texte par défaut dans les contenus */
         }
         .tab-content.active {
             display: block;
@@ -39,10 +42,10 @@
 
 <div class="tabs">
     <div class="tab active" onclick="showTab(event, 'resume')">Résumé</div>
-    <div class="tab" onclick="showTab(event, 'Attaque')">Passes</div>
-    <div class="tab" onclick="showTab(event, 'Défense')">Actions défensives</div>
-    <div class="tab" onclick="showTab(event, 'CPA')">Possession</div>
-    <div class="tab" onclick="showTab(event, 'Fautes')">Statistiques diverses</div>
+    <div class="tab" onclick="showTab(event, 'Attaque')">Attaque</div>
+    <div class="tab" onclick="showTab(event, 'Défense')">Défense</div>
+    <div class="tab" onclick="showTab(event, 'CPA')">CPA</div>
+    <div class="tab" onclick="showTab(event, 'Fautes')">Fautes</div>
 </div>
 
 <div id="resume" class="tab-content active">

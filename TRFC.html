@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inter Miami - Statistiques des joueurs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .tabs {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .tab {
+            padding: 10px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+        }
+        .tab.active {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+        .tab-content {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Inter Miami - Statistiques des joueurs</h1>
+
+<div class="tabs">
+    <div class="tab active" onclick="showTab(event, 'resume')">Résumé</div>
+    <div class="tab" onclick="showTab(event, 'passes')">Passes</div>
+    <div class="tab" onclick="showTab(event, 'actions')">Actions défensives</div>
+    <div class="tab" onclick="showTab(event, 'possession')">Possession</div>
+    <div class="tab" onclick="showTab(event, 'statistiques')">Statistiques diverses</div>
+</div>
+
+<div id="resume" class="tab-content active">
+    <h2>Résumé</h2>
+    <p>Données de résumé des joueurs...</p>
+</div>
+
+<div id="passes" class="tab-content">
+    <h2>Passes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Joueur</th>
+                <th>Passes réussies</th>
+                <th>Passes tentées</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Leo Suárez</td>
+                <td>20</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Laandro Campana</td>
+                <td>15</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="actions" class="tab-content">
+    <h2>Actions défensives</h2>
+    <p>Données sur les actions défensives des joueurs...</p>
+</div>
+
+<div id="possession" class="tab-content">
+    <h2>Possession</h2>
+    <p>Données sur la possession de balle...</p>
+</div>
+
+<div id="statistiques" class="tab-content">
+    <h2>Statistiques diverses</h2>
+    <p>Diverses statistiques des joueurs...</p>
+</div>
+
+<script>
+    function showTab(event, tabName) {
+        // Cacher toutes les tabs
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => {
+            content.classList.remove('active');
+        });
+
+        // Enlever la classe active de tous les onglets
+        const tabs = document.querySelectorAll('.tab');
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+        });
+
+        // Afficher l'onglet sélectionné
+        document.getElementById(tabName).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+</script>
+
+</body>
+</html>

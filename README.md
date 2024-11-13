@@ -1,91 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>U.S. Colomiers Féminine 24/25</title>
-    <style>
-        body {
-            background-image: url('sitefond.png');
-            background-repeat: no-repeat; /* Empêche la répétition de l'image */
-            background-size: cover; /* L'image couvre toute l'écran */
-            margin: 0; /* Supprime les marges par défaut */
-            font-family: Arial, sans-serif; /* Police générique */
-        }
-        /* Style du menu */
-        .menu {
-            background-color: rgba(51, 51, 51, 0.8); /* Couleur de fond avec opacité */
-            overflow: hidden;
-            padding: 10px 0; /* Espacement vertical */
-        }
-        /* Liens du menu */
-        .menu a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        /* Change la couleur lorsque l'on survole */
-        .menu a:hover {
-            background-color: rgba(17, 17, 17, 0.8);
-        }
-        /* Conteneur pour le sous-menu */
-        .dropdown {
-            float: left;
-            overflow: hidden;
-        }
-        /* Bouton du sous-menu */
-        .dropdown .dropbtn {
-            background-color: inherit; /* Utilise la couleur de fond du parent */
-            border: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            color: white;
-            font-size: 16px;
-        }
-        /* Style du sous-menu (caché par défaut) */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9; /* Couleur de fond du sous-menu */
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-        /* Liens du sous-menu */
-        .dropdown-content a {
-            float: none;
-            color: black;
-            text-decoration: none;
-            text-align: left;
-            padding: 12px 16px;
-        }
-        /* Changer la couleur lorsqu'on survole un lien du sous-menu */
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-        /* Afficher le sous-menu lorsque le bouton est survolé */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>U.S.Colomiers Féminine 24/25</title>
+  <style>
+    body {
+      background-image: url('sitefond.png'); /* Adjust path if needed */
+      background-repeat: no-repeat; 
+      background-size: cover;
+      font-family: sans-serif; /* Basic font */
+    }
+    /* Menu Styles */
+    .dropdown {
+      position: relative;
+      display: inline-block; 
+      margin: 20px; /* Adjust spacing as needed */
+    }
+    .dropdown li {
+      list-style: none; 
+      margin: 0;
+      padding: 0;
+      display: inline-block; 
+    }
+    .dropdown a {
+      display: block; 
+      padding: 10px 20px;
+      text-decoration: none; 
+      background-color: #eee;
+      color: #333; 
+    }
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-menu {
+      display: none; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1; 
+    }
+    .dropdown-menu li {
+      display: block; 
+    }
+    .dropdown-submenu:hover .dropdown-menu {
+      display: block; 
+    }
+  </style>
 </head>
 <body>
-    <div class="menu">
-        <a href="#accueil">Accueil</a>
-        <div class="dropdown">
-            <button class="dropbtn">Services</button>
-            <div class="dropdown-content">
-                <a href="#service1">Service 1</a>
-                <a href="#service2">Service 2</a>
-                <a href="#service3">Service 3</a>
-            </div>
-        </div>
-        <a href="#about">À propos</a>
-        <a href="#contact">Contact</a>
-    </div>
+  <h1>U.S.Colomiers Féminine 24/25</h1>
 
+  <nav>
+    <ul class="dropdown">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Équipe</a></li>
+      <li class="dropdown-submenu">
+        <a href="#">Informations</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Calendrier</a></li>
+          <li><a href="#">Résultats</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Boutique</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Your website content will go here -->
+  </main>
 </body>
 </html>

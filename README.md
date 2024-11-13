@@ -15,6 +15,9 @@
       display: inline-block; 
       margin: 20px; /* Adjust spacing as needed */
     }
+     h2 { text-align: center; }
+    }
+    }
     .dropdown li {
       list-style: none; 
       margin: 0;
@@ -49,7 +52,7 @@
   </style>
 </head>
 <body>
-      <h2><img src="compousc.jpeg" alt="compo FCTL-USC"></h2>
+      <h2><img src="colomiers logo.png" alt="compo FCTL-USC"></h2>
   <nav>
     <ul class="dropdown">
       <li class="dropdown-submenu">

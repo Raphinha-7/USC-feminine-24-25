@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -58,12 +57,7 @@
           <li><a href="#">Calendrier</a></li>
           <li><a href="#">Résultats</a></li>
           <li><a href="#">Contact</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Boutique</a></li>
-    </ul>
   </nav>
-
   <main>
     <!-- Your website content will go here -->
   </main>

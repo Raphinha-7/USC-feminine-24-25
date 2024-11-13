@@ -49,6 +49,7 @@
   </style>
 </head>
 <body>
+      <h2><img src="compousc.jpeg" alt="compo FCTL-USC"></h2>
   <nav>
     <ul class="dropdown">
       <li class="dropdown-submenu">

@@ -58,10 +58,3 @@
           <li><a href="#">Résultats</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-    </ul>
-  </nav>
-  <main>
-    <!-- Your website content will go here -->
-  </main>
-</body>
-</html>

@@ -1,6 +1,5 @@
 # U.S.Colomiers Féminine 24/25
 <html lang="fr">
-<!DOCTYPE html>
 <html>
 <head>
   <style>

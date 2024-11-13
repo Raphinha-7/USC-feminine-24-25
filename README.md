@@ -1,16 +1,16 @@
-# U.S.Colomiers Féminine 24/25
-<html lang="fr">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <style>
+    body {
+      background-image: url('sitefond.png');
+      background-repeat: no-repeat; /* Optional: Prevents repeating the image */
+      background-size: cover; /* Optional: Makes the image cover the whole screen */
+    }
+  </style>
 </head>
 <body>
-    <h2>USC</h2>
-    <ul>
-        <li><a href="S2425.html">Saison 24/25</a></li>
-        <li><a href="RPE.html">RPE</a></li>
-        <li><a href="Documentdivers.html">Document divers</a></li>
-    </ul>
+  ... your website content ... 
 </body>
 </html>

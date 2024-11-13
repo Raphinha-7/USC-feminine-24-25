@@ -54,7 +54,7 @@
       <li class="dropdown-submenu">
         <a href="#">Informations</a>
         <ul class="dropdown-menu">
-          <li><a href="#">Calendrier</a></li>
+          <li><a href="#">S2425.html</a></li>
           <li><a href="#">Résultats</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

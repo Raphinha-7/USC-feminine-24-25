@@ -50,12 +50,8 @@
   </style>
 </head>
 <body>
-  <h1>U.S.Colomiers Féminine 24/25</h1>
-
   <nav>
     <ul class="dropdown">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">Équipe</a></li>
       <li class="dropdown-submenu">
         <a href="#">Informations</a>
         <ul class="dropdown-menu">

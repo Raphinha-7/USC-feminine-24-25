@@ -9,11 +9,13 @@
             background-position: center; /* Pour centrer l'image */
             background-repeat: no-repeat; /* Pour éviter que l'image se répète */
         }
+        }
+     h2 { text-align: center; }
+        }
     </style>
 </head>
 <body>
-    <h1>Bienvenue sur mon site</h1>
-    <p>Ceci est un exemple de changement de fond par une image.</p>
+    <h2><img src="USClogo.png" alt="logousc"></h2>
 </body>
 </html>
 

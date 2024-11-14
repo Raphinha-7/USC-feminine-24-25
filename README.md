@@ -17,16 +17,13 @@
 </head>
 <body>
     <h2><img src="USClogo.png" alt="logousc"></h2>
-    <h2>Match</h2>
+    <h2>Menu</h2>
     <ul>
-        <li><a href="J1CF63.html">Clermont Foot 63</a></li>
-        <li><a href="J2GF38.html">Grenoble Foot 38</a></li>
-        <li><a href="J3PF43.html">Le Puy Foot 43</a></li>
-        <li><a href="J4AM.html">Albi Marssac</a></li>
-        <li><a href="J5OLII.html">Olympique Lyonnais II</a></li>
-        <li><a href="FCTL.html">F.C. Thongue Libron</a></li>
-        <li><a href="J6CDFC.html">Chassieu Décines F.C.</a></li>
-        </li><a href="index.html">Retour à l'accueil</a>
+        <li><a href="actualité.html">Actualité</a></li>
+        <li><a href="statistique.html">Statistiques</a></li>
+        <li><a href="classement.html">Classement</a></li>
+        <li><a href="S2425.html">Calendrier/Résultats</a></li>
+        <li><a href="photo.html">Photo</a></li>
     </ul>
 </body>
 </html>

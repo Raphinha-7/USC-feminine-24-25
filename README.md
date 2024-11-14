@@ -52,8 +52,8 @@
   </style>
 </head>
 <body>
-      <h2><img src="colomiers logo.png" alt="compo FCTL-USC"></h2>
-  <nav>
+      <h2><img src="USClogo.png" alt="compo FCTL-USC"></h2>
+  <h2><nav></h2>
     <ul class="dropdown">
       <li class="dropdown-submenu">
         <a href="#">Informations</a>
